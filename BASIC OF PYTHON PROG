@@ -1,0 +1,42 @@
+#write a python programming to cheak age group
+age=int(input("enter your age"))
+if (age <13 ):
+  print("child")
+elif (age<=19):
+  print("teenager")
+else:
+  print("adult")
+## write a python program  to cheak the grade using  marks
+marks= int(input("inter  your marks"))
+if(marks>90):
+    print(" A+")
+    print(" exclant")
+elif(marks>80 and marks<=90):
+    print("A and  very good ")
+elif(marks>70 and marks<=80):
+    print("B+ and  good")
+elif(marks>60 and marks<=70):
+    print("B AND NOT BAD")
+elif(marks>50 and marks<=60):
+    print("c")
+else:
+    fail
+answerinter  your marks87
+A and  very good 
+3##a= int(input("enter value a"))
+b= int(input("enter value b"))
+choice=int(input("enter your choice "))
+if choice==1 :
+ print("the sum is:",a+b)
+elif choice==2:
+ print("the produt is :",a*b)
+elif choice==3:
+  print("the difference is :",a-b)
+elif choice==4:
+  print("the quotient is :",a/b)
+else:
+  print("invalid choice")
+3333#3###ANSWER enter value a5
+enter value b7
+enter your choice 2
+the produt is : 35
