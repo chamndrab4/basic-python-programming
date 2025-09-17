@@ -1,0 +1,13 @@
+a= int(input("enter value a"))
+b= int(input("enter value b"))
+choice=int(input("enter your choice "))
+if choice==1 :
+ print("the sum is:",a+b)
+elif choice==2:
+ print("the produt is :",a*b)
+elif choice==3:
+  print("the difference is :",a-b)
+elif choice==4:
+  print("the quotient is :",a/b)
+else:
+  print("invalid choice")
